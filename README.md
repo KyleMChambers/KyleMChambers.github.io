@@ -7,11 +7,6 @@ I'm amazed by the way data influences critical decision making and strive to lea
 This is a powerful engine that drives businesses to their full potential. Without correctly visualizing and analyzing your company’s data, you could be holding back that potential. I currently work as a Data Analyst/Developer where I am learning new technology every day. Let’s collaborate!
 
 
-### About Me
-Here's a quick timeline of how I got where I am today!
-
-[![Timeline](https://user-images.githubusercontent.com/47094499/75714451-b8e52c80-5c99-11ea-9f41-d67ee7399e13.png)](https://user-images.githubusercontent.com/47094499/75714451-b8e52c80-5c99-11ea-9f41-d67ee7399e13.png)
-
 ### Projects
 
 Here are some of the projects I've worked on:
