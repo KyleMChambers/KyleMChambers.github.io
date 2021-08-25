@@ -1,10 +1,8 @@
-## Welcome!
-More than 5 years of managing, designing, and deploying various tasks for MS Exchange and Web Clients. Worked in various teams, including help desk development, documentation, and training. Key member in migration of Lotus Domino to MS Exchange. Migrated and enhanced various Notes/Domino based applications to web based applications. Wrote technical manuals, project plans, training manuals and technical/standard-operating procedures. Here I post fun projects as I expand my skillset.
-
-
+## About Me
+More than 5 years of managing, designing, and deploying various tasks for MS Exchange and Web Clients. Worked in various teams, including help desk development, documentation, and training. Wrote technical manuals, project plans, training manuals and technical/standard-operating procedures. Here I post fun projects as I expand my skillset.
 
 ### August 2021
-Connecting to Spotify's API using python's Spotipy and analyzing the top 50 songs on my own account. Here we look at top songs and popularity rating, as well as song length and  number of records in the top 50.
+Connecting to Spotify's API using python's Spotipy and analyzing the top 50 songs on my own account. Here we look at top songs and popularity rating, as well as song length and  number of records over the course of 6 weeks.
 
 [Spotify Profile Analysis](https://github.com/myfriendkmc/spotify) 
 
@@ -12,8 +10,8 @@ Connecting to Spotify's API using python's Spotipy and analyzing the top 50 song
 
 
 ### May 2021
-An analysis of the ESPN NFL Insider Adam Schefter's twitter account. 3400 tweets between June 2019-February 2020.
-![Twitter Analysis](https://public.tableau.com/app/profile/kyle.chambers/viz/AdamSchefterTweets/Dashboard1)
+An analysis of the ESPN NFL Insider Adam Schefter's twitter account. 3400 tweets between June 2019-February 2020. The link to the visual below allows you to view the tweets, filter on favorites and retweets.
+[Twitter Analysis](https://public.tableau.com/app/profile/kyle.chambers/viz/AdamSchefterTweets/Dashboard1)
 
 ![Tableau](https://user-images.githubusercontent.com/47094499/75715926-3f027280-5c9c-11ea-9133-5c292a5d9a84.png)
 
