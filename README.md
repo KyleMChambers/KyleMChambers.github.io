@@ -14,7 +14,7 @@ Javascript two player Roll or Hold dice game.
 ![rollorhold](https://raw.githubusercontent.com/KyleMChambers/RollOrHold/main/rollorhold.PNG)
 
 ### May 2021
-An analysis of the ESPN NFL Insider Adam Schefter's twitter account. 3400 tweets between June 2019-February 2020. The link to the visual below allows you to interact with the visual, filter on favorites and retweets.
+An analysis of the ESPN NFL Insider Adam Schefter's twitter account using Python's Tweepy. 3400 tweets between June 2019-February 2020. The link to the visual below allows you to interact with the visual, filter on favorites and retweets.
 
 [Link to tableau visual](https://public.tableau.com/app/profile/kyle.chambers/viz/AdamSchefterTweets/Dashboard1)
 
