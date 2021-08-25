@@ -20,6 +20,6 @@ An analysis of the ESPN NFL Insider Adam Schefter's twitter account. 3400 tweets
 [NFL Conversion Analysis](https://github.com/MyFriendKMC/Conversions/blob/master/NFL_conversions.ipynb)- Using Python to analyze NFL team conversion success on 3rd and 4th down conversions in Jupyter Notebook.
 
 ### Contact Me
-[Kyle.Chambers13@outlook.com](mailto:kyle.chambers13@outlook.com) 
-[Linkedin](https://www.linkedin.com/in/kylemchambers/)
+[Kyle.Chambers13@outlook.com](mailto:kyle.chambers13@outlook.com) |
+[Linkedin](https://www.linkedin.com/in/kylemchambers/) |
 [My Tableau Public Profile](https://public.tableau.com/profile/kyle.chambers)
