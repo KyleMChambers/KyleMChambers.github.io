@@ -14,16 +14,23 @@ Javascript two player Roll or Hold dice game.
 ![rollorhold](https://raw.githubusercontent.com/KyleMChambers/RollOrHold/main/rollorhold.PNG)
 
 ### May 2021
-An analysis of the ESPN NFL Insider Adam Schefter's twitter account. 3400 tweets between June 2019-February 2020. The link to the visual below allows you to view the tweets, filter on favorites and retweets.
+An analysis of the ESPN NFL Insider Adam Schefter's twitter account. 3400 tweets between June 2019-February 2020. The link to the visual below allows you to interact with the visual, filter on favorites and retweets.
 
 [Link to tableau visual](https://public.tableau.com/app/profile/kyle.chambers/viz/AdamSchefterTweets/Dashboard1)
 
 ![Tableau](https://user-images.githubusercontent.com/47094499/75715926-3f027280-5c9c-11ea-9133-5c292a5d9a84.png)
 
 ### March 2021
-[NFL Conversion Analysis](https://github.com/MyFriendKMC/Conversions/blob/master/NFL_conversions.ipynb)- Using Python to analyze NFL team conversion success on 3rd and 4th down conversions in Jupyter Notebook.
+Using Python to analyze NFL team conversion success on 3rd and 4th down conversions in Jupyter Notebook. We will look at the top converters as well as the league win totals.
+
+[NFL Conversion Analysis](https://github.com/MyFriendKMC/Conversions/blob/master/NFL_conversions.ipynb)
 
 ![conversions](https://user-images.githubusercontent.com/47094499/130855080-bae44f62-659d-445a-9cfb-6d4ddc254dab.png)
+
+### February 2021
+Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
+
+![sklean](https://user-images.githubusercontent.com/47094499/130857620-546a37f7-69ed-4c18-b69d-8504814ea9d1.PNG)
 
 
 ### Contact Me
