@@ -1,17 +1,22 @@
 ## Welcome!
 More than 5 years of managing, designing, and deploying various tasks for MS Exchange and Web Clients. Worked in various teams, including help desk development, documentation, and training. Key member in migration of Lotus Domino to MS Exchange. Migrated and enhanced various Notes/Domino based applications to web based applications. Wrote technical manuals, project plans, training manuals and technical/standard-operating procedures.
 
-## About Me
-Currently a Systems Engineer for a complex global environment, which includes email and web applications. Designing, developing and architecting various tasks for 0365 Exchange and web clients.
 
 
-### Projects
+### August 2021
+[Spotify Profile Analysis](https://github.com/myfriendkmc/spotify) - Connecting to Spotify's API using Spotipy and analyzing the top 50 songs on my own account
 
-Here are some of the projects I've worked on:
-  
+### May 2021
+
+
+### March 2021
 [NFL Conversion Analysis](https://github.com/MyFriendKMC/Conversions/blob/master/NFL_conversions.ipynb)- Using Python to analyze NFL team conversion success on 3rd and 4th down conversions in Jupyter Notebook.
 
-[Spotify Profile Analysis](https://github.com/myfriendkmc/spotify) - Connecting to Spotify's API using Spotipy and analyzing the top 50 songs on my own account
+
+  
+
+
+
 
 [My Tableau Public Profile](https://public.tableau.com/profile/kyle.chambers) - Here you can view and download the different data visualizations I've worked on in Tableau. 
 
