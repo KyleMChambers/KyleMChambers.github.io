@@ -6,6 +6,8 @@ Connecting to Spotify's API using python's Spotipy and analyzing the top 50 song
 
 [Link to repository](https://github.com/myfriendkmc/spotify) 
 
+[Link to tableau visual](https://public.tableau.com/app/profile/kyle.chambers/viz/MyTopSpotifyArtists/MyTopSpotifyArtists)
+
 ![spotify](https://user-images.githubusercontent.com/47094499/130851007-70f50465-9b4e-48f1-b921-1b552e9787eb.png)
 
 ### July 2021
