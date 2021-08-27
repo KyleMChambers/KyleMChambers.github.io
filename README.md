@@ -1,5 +1,5 @@
 ## About Me
-More than 5 years of managing, designing, and deploying various tasks for MS Exchange and Web Clients. Worked in various teams, including help desk development, documentation, and training. Wrote technical manuals, project plans, training manuals and technical/standard-operating procedures. Here I post fun projects as I expand my skillset.
+More than 5 years managing, designing, and deploying various tasks for O365 MS Exchange and Web Clients. Migrated and enhanced Notes/Domino based applications to MS web-based applications. Wrote technical manuals, project plans, training manuals and technical/standard-operating procedures. Interested in exciting new collaborative environments. Here I post fun projects as I expand my skillset.
 
 ### August 2021
 Connecting to Spotify's API using python's Spotipy and analyzing the top 50 songs on my own account. Here we look at top songs and popularity rating, as well as song length and  number of records over the course of 6 weeks.
