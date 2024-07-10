@@ -1,5 +1,5 @@
 ## About Me
-More than 5 years managing, designing, and deploying various tasks for O365 MS Exchange and Web Clients. Migrated and enhanced Notes/Domino based applications to MS web-based applications. Wrote technical manuals, project plans, training manuals and technical/standard-operating procedures. Interested in exciting new collaborative environments. Here I post fun projects as I expand my skillset.
+With a background in Data Engineering and Full-Stack Development, I'm passionate about advancing MedTech and Pharmaceutical solutions through tech. I specialize in data modeling, interactive visualization, and web app development, and I enjoy creating impactful and efficient solutions. I thrive on translating technical challenges into strategic opportunities and love working with teams. I'm looking for a Technical Lead or Software Developer position where I can keep innovating and collaborating on exciting projects.
 
 ### August 2021
 Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
