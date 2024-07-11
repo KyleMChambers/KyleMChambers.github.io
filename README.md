@@ -1,14 +1,14 @@
 ## About Me
-With a background in Data Engineering and Full-Stack Development, I'm passionate about advancing MedTech and Pharmaceutical solutions through tech. I specialize in data modeling, interactive visualization, and web app development, and I enjoy creating impactful and efficient solutions. I thrive on translating technical challenges into strategic opportunities and love working with teams. I'm looking for a Technical Lead or Software Developer position where I can keep innovating and collaborating on exciting projects.
+With a background in Data Engineering and Full-Stack Development, I'm passionate about advancing MedTech and Pharmaceutical solutions through tech. I specialize in data modeling, interactive visualization, and web app development, and I enjoy creating impactful and efficient solutions. I thrive on translating technical challenges into strategic opportunities and love working with teams. I'm looking for a Technical Lead or Software Developer position where I can keep innovating and collaborating on exciting projects. 
 
-### August 2021
+### NBA Machine Learning
 Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
 
 [Link to repository](https://github.com/KyleMChambers/NbaPredict/blob/main/nba_predict.py)
 
 ![sklean](https://user-images.githubusercontent.com/47094499/130857620-546a37f7-69ed-4c18-b69d-8504814ea9d1.PNG)
 
-### July 2021
+### Roll Or Hold Game
 Javascript two player Roll or Hold dice game.
 
 ![rollorhold](https://raw.githubusercontent.com/KyleMChambers/RollOrHold/main/rollorhold.PNG)
