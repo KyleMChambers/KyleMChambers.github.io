@@ -1,9 +1,6 @@
 ---
-layout: default
-title: Home
+layout: home
+title: Welcome to My Site
 ---
 
-<section id="about-me">
-  <h1>About Me</h1>
-  <p>Your about me content here</p>
-</section>
+Welcome to my personal site.
