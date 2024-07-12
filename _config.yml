@@ -14,7 +14,7 @@ header_pages:
   - portfolio.md
 
 # Ensure the base URL is set correctly if needed
-url: "https://yourusername.github.io"
+url: "https://KyleMChambers.github.io"
 baseurl: "" # leave empty for root
 
 # Add any other necessary settings
