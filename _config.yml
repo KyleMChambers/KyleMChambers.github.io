@@ -1,13 +1,22 @@
-# remote_theme: pages-themes/slate@v0.2.0
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Kyle M. Chambers
-description: My site
+description: My personal site
 theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
 
-# Add other configurations as needed
+# Custom settings
+minima:
+  skin: classic # or any other available skin
+header_pages:
+  - about.md # Add your pages here
+  - portfolio.md
+
+# Ensure the base URL is set correctly if needed
+url: "https://yourusername.github.io"
+baseurl: "" # leave empty for root
+
+# Add any other necessary settings
+
 
