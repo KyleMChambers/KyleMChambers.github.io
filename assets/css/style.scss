@@ -1,2 +1,6 @@
-@import "{{ site.theme }}";
-@import "../_sass/custom";
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+@import "../../_sass/custom"; // Your custom styles
