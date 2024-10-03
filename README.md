@@ -6,7 +6,6 @@ Predicting the winning features of the National Basketball Association (NBA) usi
 
 [Link to repository](https://github.com/KyleMChambers/NbaPredict/blob/main/nba_predict.py)
 
-![sklean](https://user-images.githubusercontent.com/47094499/130857620-546a37f7-69ed-4c18-b69d-8504814ea9d1.PNG)
 
 ### July 2021
 Javascript two player Roll or Hold dice game.
