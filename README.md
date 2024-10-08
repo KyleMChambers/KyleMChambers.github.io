@@ -4,7 +4,7 @@ As a Full-Stack Developer and Data Engineer with a focus on IT Product Managemen
 ### OpenAI's Image Generator
 Here I connect to OpenAi's api in NodeJS/Javascript and allow users to enter prompt to display images.
 
-
+![Open AI example](https://github.com/KyleMChambers/KyleMChambers.github.io/blob/main/assets/css/example-image.png?raw=true)
 
 ### TensorFlow project
 Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
