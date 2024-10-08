@@ -1,52 +1,31 @@
----
----
-
- /* @import "{{ site.theme }}"; */
-
-html{
-  scroll-behavior: smooth;
-}
-
-body{
-  width: 100%;
-  overflow-x: hidden;
-  background-color: #f0f0f0;
+body {
   display: flex;
-  justify-content: center;  /* Center horizontally */
-  align-items: center;      /* Center vertically */
-  min-height: 100vh;  
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;    /* Center elements horizontally */
+  margin: 0;              /* Remove default body margin */
+  min-height: 100vh;      /* Use at least full viewport height */
 }
 
-.main-content{
-  width: 100%;
-  color: rgb(18,18,18);
-  height: auto;
-  margin-top: 50px;
-  max-width: 63rem;
-}
 .topnav {
   overflow: hidden;
   background-color: black;
   opacity: 0.9;
-  justify-content: space-around;
   min-height: 8vh;
   font-family: 'Poppins', sans-serif;
   position: fixed;
   z-index: 3;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  /* Center nav items vertically */
 }
 
 .topnav a {
-  float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 19px;
-  margin-top: 6vh;
-  margin-bottom: 2vh;
-  margin-left: 2vh;
 }
 
 .topnav a:hover {
@@ -54,145 +33,18 @@ body{
   color: black;
 }
 
-.topnav a.active {
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-}
-
-h1{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  float: right;
-  margin-top: 6vh;
-  margin-right: 8vh;
-}
-
-.site-title {
-  position: absolute;
-  color: rgb(255,255,255);
-  white-space: pre-wrap;
-  font-size: 5.32vw;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  text-transform: none;
-  text-align: center;
-  top: 49%;
-  left: 1%;
-  width: 100%;
-}
-
-.buttons{
-  width: 100%;
-  position: absolute;
-  top: 63%;
-  z-index: 0;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.buttons a{
-  color: white;
-  border: 2px solid black;
-  padding: 15px 35px;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  background-color: rgba(0,0,0,0.4);
-  text-transform: uppercase;
-  margin: 15px;
-}
-
-.buttons a:hover{
-  background-color: black;
-  color: white;
-  text-decoration: none;
-}
-
-div.highlight {
-margin-left: 75px;
-}
-
 .fache {
-    width: 20%;
-    height: auto;
-    position: relative;
-    top: 115vh;
-    margin: 0px 20px;
-    padding: 0;
+  margin-top: 10vh; /* Ensure enough space below fixed nav */
+  text-align: center; /* Center content inside fache */
 }
 
-.fache img{
-  width: 20%;
-  height: auto;
-  max-width: 246px;
+.main-content {
+  display: flex;
+  flex-direction: column; /* Stack main content vertically */
+  align-items: center;    /* Center content horizontally */
+  margin-top: 20px;      /* Add margin to avoid overlap with nav */
 }
 
-.logo{
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 28px;
-}
-
-.welcome-scroll{
-  position: relative;
-  top: 105vh;
-  width: 100%;
-  height: 100px;
-}
-
-.burger{
-  display: none;
-  float: right;
-}
-
-.burger div{
-  width: 25px;
-  height: 5px;
-  background-color: red;
-  margin: 5px;
-}
-
-@media screen and (max-width:600px){
-  body{
-    overflow-x: hidden;
-    width: 100%; 
-  }
-
-  h1{
-      display: none;
-  }
-
-  .main-content {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .site-title{
-    position: absolute;
-    top: 57vh;
-    font-size: 7.5vh;
-  }
-
-  .fache {
-    display: none;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-  }
-
+footer {
+  margin-top: auto; /* Push footer to the bottom */
 }
