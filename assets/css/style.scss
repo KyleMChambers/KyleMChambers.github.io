@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+// @import "{{ site.theme }}";
 
 html{
   scroll-behavior: smooth;
@@ -15,19 +15,19 @@ body{
   //font-size: 18px;
 }
 
-.page-header{
-  //background-image: url(https://user-images.githubusercontent.com/47094499/65289162-9c07d300-db17-11e9-9402-27a9ea70d219.jpeg);
-  //background-image: url(https://user-images.githubusercontent.com/47094499/72226305-cade0500-355d-11ea-8d84-436bc0fd21c5.jpg);
-  background-image: url(https://user-images.githubusercontent.com/47094499/72226883-2e6b3100-3564-11ea-8130-3143407ec0e5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  position: relative;
-  height: 105vh;
-  padding: 0;
-  opacity: 0.8;
-}
+// .page-header{
+//   //background-image: url(https://user-images.githubusercontent.com/47094499/65289162-9c07d300-db17-11e9-9402-27a9ea70d219.jpeg);
+//   //background-image: url(https://user-images.githubusercontent.com/47094499/72226305-cade0500-355d-11ea-8d84-436bc0fd21c5.jpg);
+//   background-image: url(https://user-images.githubusercontent.com/47094499/72226883-2e6b3100-3564-11ea-8130-3143407ec0e5.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   width: 100%;
+//   position: relative;
+//   height: 105vh;
+//   padding: 0;
+//   opacity: 0.8;
+// }
 
 .main-content{
   width: 100%;
@@ -198,42 +198,15 @@ padding: 0;
 body{
    overflow-x: hidden;
    width: 100%;
+   display: flex;
+   justify-content: center;  /* Center horizontally */
+   align-items: center;      /* Center vertically */
+   min-height: 100vh;   
  }
 
 h1{
     display: none;
 }
-
-//  .nav-links{
-//    position: absolute;
-//    right: 0px;
-//    height: 92vh;
-//    top: 8vh;
-//    background-color: inherit;
-//    display: flex;
-//    flex-direction: column;
-//    align-items: center;
-//    width: 100%;
-//    transform: translate(100%);
-//    transition: transform 0.5s ease-in;
-// }
-//
-// .nav-links li{
-//   opacity: 0;
-// }
-//
-// .nav-links a {
-// font-size: 17px;
-// // }
-//
-// .burger{
-//    display: block;
-//    float: right;
-// }
-//
-// .nav-active{
-//   transform: translate(0%);
-// }
 
 .main-content {
   width: auto;
