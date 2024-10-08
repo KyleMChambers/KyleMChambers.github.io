@@ -4,6 +4,8 @@ As a Full-Stack Developer and Data Engineer with a focus on IT Product Managemen
 ### OpenAI's Image Generator
 Here I connect to OpenAi's api in NodeJS/Javascript and allow users to enter prompt to display images.
 
+[Link to Repo](https://github.com/KyleMChambers/gpt_image_search)
+
 ![Open AI example](https://github.com/KyleMChambers/KyleMChambers.github.io/blob/main/assets/css/example-image.png?raw=true)
 
 ### TensorFlow project
