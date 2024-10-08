@@ -1,7 +1,7 @@
 ---
 ---
 
-// @import "{{ site.theme }}";
+ /* @import "{{ site.theme }}"; */
 
 html{
   scroll-behavior: smooth;
@@ -60,17 +60,6 @@ body{
 
 .topnav .icon {
   display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-      float: right;
-      display: block;
-      margin-right: 5vh;
-      width: 10vh;
-   }
-.fa {font-size: 29px;}
 }
 
 .topnav.responsive a {
@@ -137,12 +126,12 @@ margin-left: 75px;
 }
 
 .fache {
-width: 20%;
-height: auto;
-position: relative;
-top: 115vh;
-margin: 0px 20px;
-padding: 0;
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 115vh;
+    margin: 0px 20px;
+    padding: 0;
 }
 
 .fache img{
