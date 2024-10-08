@@ -11,23 +11,11 @@ body{
   width: 100%;
   overflow-x: hidden;
   background-color: #f0f0f0;
-//  font-family: 'Michroma ', sans-serif;
-  //font-size: 18px;
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  min-height: 100vh;  
 }
-
-// .page-header{
-//   //background-image: url(https://user-images.githubusercontent.com/47094499/65289162-9c07d300-db17-11e9-9402-27a9ea70d219.jpeg);
-//   //background-image: url(https://user-images.githubusercontent.com/47094499/72226305-cade0500-355d-11ea-8d84-436bc0fd21c5.jpg);
-//   background-image: url(https://user-images.githubusercontent.com/47094499/72226883-2e6b3100-3564-11ea-8130-3143407ec0e5.jpg);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   width: 100%;
-//   position: relative;
-//   height: 105vh;
-//   padding: 0;
-//   opacity: 0.8;
-// }
 
 .main-content{
   width: 100%;
@@ -35,6 +23,60 @@ body{
   height: auto;
   margin-top: 50px;
   max-width: 63rem;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: space-around;
+  min-height: 8vh;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
+  margin-left: 2vh;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+      float: right;
+      display: block;
+      margin-right: 5vh;
+      width: 10vh;
+   }
+.fa {font-size: 29px;}
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
 }
 
 h1{
@@ -80,7 +122,6 @@ h1{
   display: inline-block;
   cursor: pointer;
   background-color: rgba(0,0,0,0.4);
-  //opacity: 0.7;
   text-transform: uppercase;
   margin: 15px;
 }
@@ -89,17 +130,6 @@ h1{
   background-color: black;
   color: white;
   text-decoration: none;
-}
-
-.main-content {
-  margin-top: 75px;
-}
-
-.main-content p {
-margin-left: 75px;
-}
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-margin-left: 75px;
 }
 
 div.highlight {
@@ -121,52 +151,11 @@ padding: 0;
   max-width: 246px;
 }
 
-// nav{
-//   width: 100%;
-//   display: flex;
-//   justify-content: space-around;
-//   align-items: center;
-//   min-height: 8vh;
-//   background-color: black;
-//   font-family: 'Poppins', sans-serif;
-//   opacity: 0.9;
-//   position: fixed;
-//   top: 0;
-//   left:0;
-//   z-index: 3;
-//   //overflow-x: hidden;
-//   z-index: 1;
-// }
-
-// nav a:hover {
-//   background-color: #ddd;
-//   color: black;
-// }
-
 .logo{
   color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 28px;
-}
-
-// .nav-links{
-//   display: flex;
-//   width: 35%;
-//   justify-content: space-around;
-//   list-style-type: none;
-//
-// }
-//
-// .nav-links a{
-//   color:white;
-//   text-decoration: none;
-//   font-weight: bold;
-//   font-size: 15px;
-// }
-
-.logo > h4:nth-child(1) {
-    font-size: 26px;
 }
 
 .welcome-scroll{
@@ -188,43 +177,33 @@ padding: 0;
   margin: 5px;
 }
 
-// @media screen and (max-width:1024px){
-//  .nav-links{
-//    width: 40%;
-//  }
-// }
-
 @media screen and (max-width:600px){
-body{
-   overflow-x: hidden;
-   width: 100%;
-   display: flex;
-   justify-content: center;  /* Center horizontally */
-   align-items: center;      /* Center vertically */
-   min-height: 100vh;   
- }
+  body{
+    overflow-x: hidden;
+    width: 100%; 
+  }
 
-h1{
+  h1{
+      display: none;
+  }
+
+  .main-content {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .site-title{
+    position: absolute;
+    top: 57vh;
+    font-size: 7.5vh;
+  }
+
+  .fache {
     display: none;
-}
-
-.main-content {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-
-.site-title{
-  position: absolute;
-  top: 57vh;
-  font-size: 7.5vh;
-}
-
-.fache {
-  display: none;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
 
 }
