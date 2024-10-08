@@ -1,74 +1,74 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
     <title>Kyle M. Chambers</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     {% if site.google_analytics %}
-    <script src="app.js"></script>
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-
+        <script src="app.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_analytics }}');
+        </script>
     {% endif %}
     <meta charset="UTF-8">
-{% seo %}
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link href="https://fonts.googleapis.com/css?family=Alice|Michroma|Rasa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-    <a href="#about-me">About Me</a>
-    <a href="https://www.linkedin.com/in/kylemchambers" target="_blank">LinkedIn</a>
-    <a href="https://www.dibiz.com/kchambers973" target="_blank">Contact</a>
-    <a href="https://raw.githubusercontent.com/KyleMChambers/KyleMChambers.github.io/main/KCResume.pdf" target="_blank">Resume</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
-      <a class="welcome-scroll"></a>
-        <!-- Use this div to scroll because the nav is fixed. -->
-      <div class="fache">
-        <img src ="https://user-images.githubusercontent.com/47094499/75707365-c47e2680-5c8c-11ea-8610-b01885358b9c.png" alt="profile" style="width:246px;height:246px;">
-            <ul=class="bio">
-                <li>Hoboken, NJ</li>
-                <li>
-                    <a href="https://www.linkedin.com/in/kylemchambers" target="_blank" itemprop="sameAs">
-                        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/KyleMChambers" target="_blank" itemprop="sameAs">
-                        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> GitHub
-                    </a>
-                </li>
-            </ul>
-      </div>
-    </header>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#about-me">About Me</a>
+        <a href="https://www.linkedin.com/in/kylemchambers" target="_blank">LinkedIn</a>
+        <a href="https://www.dibiz.com/kchambers973" target="_blank">Contact</a>
+        <a href="https://raw.githubusercontent.com/KyleMChambers/KyleMChambers.github.io/main/KCResume.pdf" target="_blank">Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+    <div class="fache">
+        <img src="https://user-images.githubusercontent.com/47094499/75707365-c47e2680-5c8c-11ea-8610-b01885358b9c.png" alt="profile" style="width:246px;height:246px;">
+        <ul class="bio"> <!-- Fixed the unordered list syntax here -->
+            <li>Hoboken, NJ</li>
+            <li>
+                <a href="https://www.linkedin.com/in/kylemchambers" target="_blank" itemprop="sameAs">
+                    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/KyleMChambers" target="_blank" itemprop="sameAs">
+                    <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub <!-- Corrected icon class here -->
+                </a>
+            </li>
+        </ul>
+    </div>
+
     <main id="content" class="main-content" role="main">
-      {{ content }}
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
+        {{ content }}
+        <footer class="site-footer">
+            {% if site.github.is_project_page %}
+                <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+            {% endif %}
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        </footer>
     </main>
-  </body>
+</body>
 </html>
