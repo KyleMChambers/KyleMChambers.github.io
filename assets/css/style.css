@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: red; /* Change this to see if the background applies */
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px; /* Space below navbar */
+}
