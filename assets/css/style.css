@@ -1,23 +1,87 @@
 body {
     margin: 0;
-    background-color: red; /* Change this to see if the background applies */
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
 .topnav {
     display: flex;
     background-color: black;
-    padding: 10px;
+    opacity: 0.9;
+    min-height: 8vh;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
 }
 
 .topnav a {
     color: #f2f2f2;
-    text-decoration: none;
+    text-align: center;
     padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.profile-img {
+    width: 150px; /* Fixed image size */
+    height: 150px; /* Fixed height to maintain ratio */
+    object-fit: cover; /* Ensure all images fit without distortion */
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.fache img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the images are all the same size without distortion */
+    border-radius: 50%; /* Circular images */
+}
+
+.fache {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bio {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bio li {
+    margin: 5px 0;
 }
 
 .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
-    margin-top: 60px; /* Space below navbar */
+    padding: 60px 20px;
+    margin-top: 20px;
+    max-width: 800px; /* This makes the column narrower */
+    width: 100%; /* Ensure the content doesn't overflow */
+}
+
+.site-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
 }
