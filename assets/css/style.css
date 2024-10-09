@@ -27,6 +27,16 @@ body {
     font-size: 24px;
 }
 
+/* Ensure the h1 link is styled like the h1 */
+.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+.home-link:hover {
+    color: #ddd; /* Optional hover effect */
+}
+
 /* Style for the nav links */
 .nav-links {
     display: flex; /* Ensure links are displayed in a row */
