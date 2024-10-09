@@ -1,50 +1,70 @@
 body {
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center;    /* Center elements horizontally */
-  margin: 0;              /* Remove default body margin */
-  min-height: 100vh;      /* Use at least full viewport height */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height for centering */
+    background-color: #f4f4f4; /* Light background color */
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: black;
-  opacity: 0.9;
-  min-height: 8vh;
-  font-family: 'Poppins', sans-serif;
-  position: fixed;
-  z-index: 3;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;  /* Center nav items vertically */
+    display: flex;
+    background-color: black;
+    opacity: 0.9;
+    min-height: 8vh;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
 }
 
 .topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 19px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
+}
+
+.profile-img {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%; /* Circular image */
+    margin-top: 80px; /* Margin to avoid overlap with the fixed navbar */
 }
 
 .fache {
-  margin-top: 10vh; /* Ensure enough space below fixed nav */
-  text-align: center; /* Center content inside fache */
+    text-align: center;
+    margin: 20px 0; /* Space around the profile section */
+}
+
+.bio {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.bio li {
+    margin: 5px 0; /* Space between list items */
 }
 
 .main-content {
-  display: flex;
-  flex-direction: column; /* Stack main content vertically */
-  align-items: center;    /* Center content horizontally */
-  margin-top: 20px;      /* Add margin to avoid overlap with nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text */
+    padding: 60px 20px; /* Space for the fixed navbar */
 }
 
-footer {
-  margin-top: auto; /* Push footer to the bottom */
+.site-footer {
+    text-align: center;
+    margin-top: 20px;
 }
