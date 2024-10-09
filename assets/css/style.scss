@@ -4,9 +4,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align items at the top */
-    min-height: 100vh; /* Full height for centering */
-    background-color: #f4f4f4; /* Light background color */
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
 .topnav {
@@ -19,15 +19,15 @@ body {
     z-index: 3;
     width: 100%;
     top: 0;
-    padding: 10px 0; /* Add padding to the navbar */
+    padding: 10px 0;
 }
 
 .topnav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 15px; /* Reduced padding for a more compact nav */
+    padding: 10px 15px;
     text-decoration: none;
-    font-size: 18px; /* Slightly smaller font size */
+    font-size: 18px;
 }
 
 .topnav a:hover {
@@ -36,24 +36,24 @@ body {
 }
 
 .profile-img {
-    width: 150px; /* Reduced image size */
-    height: 150px; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular image */
-    margin-top: 80px; /* Margin to avoid overlap with the fixed navbar */
+    max-width: 150px; /* Maintain aspect ratio */
+    height: auto;
+    border-radius: 50%;
+    margin-top: 80px; /* Space from the navbar */
 }
 
 .fache {
     text-align: center;
-    margin: 20px 0; /* Space around the profile section */
+    margin: 20px 0;
 }
 
 .bio {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
+    list-style-type: none;
+    padding: 0;
 }
 
 .bio li {
-    margin: 5px 0; /* Space between list items */
+    margin: 5px 0;
 }
 
 .main-content {
@@ -61,17 +61,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Center the text */
-    padding: 60px 20px; /* Space for the fixed navbar */
+    text-align: center;
+    padding: 80px 20px; /* Space for fixed navbar */
     margin-top: 20px; /* Add margin for spacing */
+    min-height: calc(100vh - 200px); /* Ensure space for navbar and footer */
 }
 
 .site-footer {
     text-align: center;
-    margin-top: 40px; /* More space above the footer */
-    padding: 20px 0; /* Padding for the footer */
-    border-top: 1px solid #ccc; /* Add a top border to the footer */
-    background-color: #fff; /* Background color for footer */
-    width: 100%; /* Full width footer */
-    position: relative; /* Position footer relative to the body */
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
 }
