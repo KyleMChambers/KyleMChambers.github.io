@@ -1,6 +1,8 @@
 ## About Me
 As a Full-Stack Developer and Data Engineer with a focus on IT Product Management, I strive to leverage innovative technologies to enhance healthcare and financial solutions. Proficient in data modeling, interactive visualization, and web development, I aim to combine my technical expertise with strong interpersonal skills to empower data-driven decision-making processes.
 
+Here's where I display some of the projects I've worked on over the years. Enjoy!
+
 ### OpenAI's Image Generator
 Here I connect to OpenAi's api in NodeJS/Javascript and allow users to enter prompt to display images.
 
