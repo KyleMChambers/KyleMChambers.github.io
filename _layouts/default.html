@@ -3,23 +3,8 @@
 <head>
     <title>Kyle M. Chambers</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    {% if site.google_analytics %}
-        <script src="app.js"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', '{{ site.google_analytics }}');
-        </script>
-    {% endif %}
     <meta charset="UTF-8">
-    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link href="https://fonts.googleapis.com/css?family=Alice|Michroma|Rasa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -33,6 +18,7 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
+
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -43,10 +29,10 @@
             }
         }
     </script>
-    
+
     <div class="fache">
-        <img src="https://user-images.githubusercontent.com/47094499/75707365-c47e2680-5c8c-11ea-8610-b01885358b9c.png" alt="profile" style="width:246px;height:246px;">
-        <ul class="bio"> <!-- Fixed the unordered list syntax here -->
+        <img src="https://user-images.githubusercontent.com/47094499/75707365-c47e2680-5c8c-11ea-8610-b01885358b9c.png" alt="profile" class="profile-img">
+        <ul class="bio">
             <li>Hoboken, NJ</li>
             <li>
                 <a href="https://www.linkedin.com/in/kylemchambers" target="_blank" itemprop="sameAs">
@@ -55,7 +41,7 @@
             </li>
             <li>
                 <a href="https://github.com/KyleMChambers" target="_blank" itemprop="sameAs">
-                    <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub <!-- Corrected icon class here -->
+                    <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
                 </a>
             </li>
         </ul>
