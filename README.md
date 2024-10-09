@@ -47,4 +47,6 @@ Connecting to Spotify's API using python's Spotipy and analyzing the top 50 song
 ### Contact Me
 [Kyle.Chambers13@outlook.com](mailto:kyle.chambers13@outlook.com) |
 [Linkedin](https://www.linkedin.com/in/kylemchambers/) |
+[Github](https://github.com/KyleMChambers) |
 [My Tableau Public Profile](https://public.tableau.com/profile/kyle.chambers)
+
