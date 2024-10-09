@@ -16,6 +16,8 @@ body {
     background-color: black;
     opacity: 0.9;
     padding: 20px 0;
+    width: 100%;
+    position: fixed;
 }
 
 /* Style for the h1 */
@@ -29,6 +31,7 @@ body {
 .nav-links {
     display: flex; /* Ensure links are displayed in a row */
     justify-content: center;
+    gap: 120px;
 }
 
 .nav-links a {
