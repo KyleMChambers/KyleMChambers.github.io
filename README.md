@@ -6,7 +6,7 @@ Here I connect to OpenAi's api in NodeJS/Javascript and allow users to enter pro
 
 [Link to Repo](https://github.com/KyleMChambers/gpt_image_search)
 
-![Open AI example](https://github.com/KyleMChambers/KyleMChambers.github.io/blob/main/assets/css/example-image.png?raw=true)
+![Open AI example](./)
 
 ### TensorFlow project
 Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
