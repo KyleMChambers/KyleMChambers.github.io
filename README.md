@@ -10,17 +10,13 @@ Here I connect to OpenAi's api in NodeJS/Javascript and allow users to enter pro
 
 ![Open AI example](./assets/css/example-image.png)
 
-### TensorFlow project
-Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
-
-[Link to repository](https://github.com/KyleMChambers/NbaPredict/blob/main/nba_predict.py)
-
 
 ### Drug Performance Analysis and ML
 Analyzing relationship between drug effectiveness, ease of use, and user satisfaction. I tried builting a predictive model to estimate satisfaction scores based on the effectiveness and ease of use ratings of various drugs.
 
 [Link to Repository](https://github.com/KyleMChambers/Drug_ML_Engine)
-[Drug Performance Image](https://raw.githubusercontent.com/KyleMChambers/Drug_ML_Engine/refs/heads/main/ml_image.png)
+
+![Drug Performance Image](https://raw.githubusercontent.com/KyleMChambers/Drug_ML_Engine/refs/heads/main/ml_image.png)
 
 ### Vanilla JS game
 Javascript two player Roll or Hold dice game.
@@ -33,6 +29,11 @@ An analysis of the ESPN NFL Insider Adam Schefter's twitter account using Python
 [Link to tableau visual](https://public.tableau.com/app/profile/kyle.chambers/viz/AdamSchefterTweets/Dashboard1)
 
 ![Tableau](https://user-images.githubusercontent.com/47094499/75715926-3f027280-5c9c-11ea-9133-5c292a5d9a84.png)
+
+### TensorFlow project
+Predicting the winning features of the National Basketball Association (NBA) using a sklearn decison trees. Using data from basketball reference, we iterate over our dataframe and create winsteak and last home win features and apply it in a decison tree. This uses NumPy, Pandas, sklearn.
+
+[Link to repository](https://github.com/KyleMChambers/NbaPredict/blob/main/nba_predict.py)
 
 ### Using matlabs in Python
 Using Python to analyze NFL team conversion success on 3rd and 4th down conversions in Jupyter Notebook. We will look at the top converters as well as the league win totals.
