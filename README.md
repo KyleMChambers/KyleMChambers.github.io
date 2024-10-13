@@ -16,6 +16,11 @@ Predicting the winning features of the National Basketball Association (NBA) usi
 [Link to repository](https://github.com/KyleMChambers/NbaPredict/blob/main/nba_predict.py)
 
 
+### Drug Performance Analysis and ML
+Analyzing relationship between drug effectiveness, ease of use, and user satisfaction. I tried builting a predictive model to estimate satisfaction scores based on the effectiveness and ease of use ratings of various drugs.
+
+[Drug Performance Image](https://github.com/KyleMChambers/Drug_ML_Engine/blob/main/ml_image.png)
+
 ### Vanilla JS game
 Javascript two player Roll or Hold dice game.
 
